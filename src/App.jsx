@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
-import QRCodeContext from "./context/QRContext.jsx";
-import QRCodeApp from "./components/QRCodeApp.jsx";
+import QRCodeContext from "./context/QRContext";
+import QRCodeApp from "./components/QRCodeApp";
 
 function App() {
   const [url, setUrl] = useState("");
